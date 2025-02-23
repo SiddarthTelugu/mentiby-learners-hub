@@ -91,7 +91,7 @@ const Community = () => {
                     </div>
                   </div>
                   {discussion.active && (
-                    <Badge variant="success" className="bg-green-500">
+                    <Badge variant="secondary" className="bg-green-500 text-white">
                       Active
                     </Badge>
                   )}
